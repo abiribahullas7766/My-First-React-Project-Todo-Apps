@@ -1,0 +1,177 @@
+.app {
+    text-align: center;
+    margin-top: 50px;
+  }
+  
+  form {
+    margin-bottom: 20px;
+  }
+  
+  input[type="text"] {
+    padding: 10px;
+    width: 300px;
+    border: none;
+    border-radius: 5px;
+    outline: none;
+    padding-top: 20px;
+  }
+  
+  button {
+    padding: 10px 20px;
+    background-color: #4caf50;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+  }
+  
+  li {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #fff;
+    padding: 10px;
+    margin-bottom: 10px;
+    box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.1);
+    border-radius: 5px;
+  }
+  
+  .completed {
+    text-decoration: line-through;
+    opacity: 0.7;
+  }
+  
+  .delete-btn {
+    background-color: #ff4d4d;
+    color: white;
+    border: none;
+    padding: 5px 10px;
+    border-radius: 3px;
+    cursor: pointer;
+  }
+
+  .navbar {
+    background-color: orangered;
+    color: #fff;
+    padding: 10px;
+  }
+  
+  .navbar-title {
+    margin: 0;
+  }
+  /* ...existing styles... */
+
+.navbar {
+    background-color: orangered;
+    color: #fff;
+    padding: 10px;
+    transition: all 0.3s ease;
+  }
+  
+  .navbar:hover {
+    background-color: #555;
+  }
+  
+  ul {
+    /* ...existing styles... */
+    transition: all 0.3s ease;
+  }
+  
+  li {
+    /* ...existing styles... */
+    transition: all 0.3s ease;
+  }
+  
+  li:hover {
+    transform: scale(1.05);
+    box-shadow: 0px 2px 6px rgba(0, 0, 0, 0.2);
+  }
+  /* ...existing styles... */
+
+.due-date {
+    font-size: 12px;
+    color: #888;
+  }
+  
+  .priority {
+    display: inline-block;
+    padding: 4px 8px;
+    border-radius: 4px;
+    font-size: 12px;
+    font-weight: bold;
+    text-transform: uppercase;
+  }
+  
+  .low {
+    background-color: #8BC34A;
+    color: #fff;
+  }
+  
+  .medium {
+    background-color: #FFC107;
+    color: #fff;
+  }
+  
+  .high {
+    background-color: #F44336;
+    color: #fff;
+  }
+  
+  .category {
+    display: inline-block;
+    padding: 4px 8px;
+    border-radius: 4px;
+    font-size: 12px;
+    background-color: #2196F3;
+    color: #fff;
+  }
+
+  /* ...existing styles... */
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 16px;
+    background-color:orangered;
+  }
+  
+  .navbar input[type="text"] {
+    padding: 8px;
+    border-radius: 4px;
+    border: 1px solid #ccc;
+    font-size: 14px;
+    width: 200px;
+    transition: border-color 0.3s ease;
+  }
+  
+  .navbar input[type="text"]:focus {
+    outline: none;
+    border-color: #2196F3;
+  }
+  /* ...existing styles... */
+
+/* ...existing styles... */
+
+.reminder {
+    display: inline-block;
+    background-color: #ffcc80;
+    color: #333;
+    font-size: 12px;
+    padding: 4px 8px;
+    border-radius: 4px;
+    margin-left: 8px;
+  }
+  
+  
+  
+  
+  
+  
+  
